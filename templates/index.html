@@ -8,51 +8,97 @@
 </head>
 <body>
     <h1>Sodoku Solver</h1>
-    <div id="main">
-        <div id="grid">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <br>
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <br>
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <br>
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <br>
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <br>
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <input type="text" autocomplete="off" maxlength="1" inputmode="numeric">
-            <br>
-        </div>
+    <div id="grid">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right top" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="right" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
+        <input class="bottom left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom left" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <input class="bottom right" type="text" autocomplete="off" maxlength="1" inputmode="numeric">
+        <br>
     </div>
 </body>
 </html>
